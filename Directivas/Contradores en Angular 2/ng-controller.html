@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title>Modelo en scope</title>	
+	</head>
+
+	<body>
+		<div ng-controller="useController as vm">
+			{{ vm.mensaje }}
+		</div>
+
+
+		<script src="../../../lib/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="useController.js"></script>
+	</body>
+</html>
